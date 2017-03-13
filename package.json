@@ -1,0 +1,25 @@
+{
+  "name": "sprout-roots",
+  "description": "A roots template for building an awesome static site",
+  "version": "0.0.0",
+  "author": "James Dinsdale",
+  "bugs": {
+    "url": "https://github.com/molovo/sprout-roots/issues"
+  },
+  "dependencies": {
+    "ejs": "2.2.x",
+    "underscore.string": "3.0.x"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.x",
+    "sprout": "0.4.x",
+    "rimraf": "2.3.x"
+  },
+  "homepage": "https://github.com/molovo/sprout-roots",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molovo/sprout-roots"
+  }
+}

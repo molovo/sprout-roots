@@ -1,0 +1,23 @@
+block vars
+
+doctype html
+html(lang="en")
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='description', content='<%= description %>')
+    meta(name='author', content='<%= author %>')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    - var title = typeof post !== 'undefined' ? post.title + ' | <%= name %>' : (title || _path)
+    title= title
+
+    link(rel='icon' href='/favicon.ico')
+
+    != css('/')
+
+  body
+    block content
+
+    != js('/')
